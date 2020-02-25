@@ -2310,6 +2310,7 @@ pre .javascript .function {
   max-width: 96px;
   height: auto;
   border: 2px solid #333;
+  cursor: pointer;
 }
 .site-author-name {
   margin: 5px 0 0;
@@ -2391,7 +2392,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #c967ff;
+  background: #ff4055;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3507,4 +3508,12 @@ body {
 #sidebar span,
 #sidebar a {
   color: C8C8C8;
+}
+#posts code {
+  color: #7bb;
+  background-color: #eeeee0;
+}
+#lv-container {
+  border-radius: 10px;
+  background: rgba(128,128,128,0.1) none repeat scroll !important;
 }

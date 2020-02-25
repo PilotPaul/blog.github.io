@@ -1,4 +1,7 @@
 /* global NexT: true */
+$('.site-author-image').click(function(){
+  window.location.href="";
+});
 
 $(document).ready(function () {
   window.onload=function(){
