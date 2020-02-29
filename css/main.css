@@ -1631,7 +1631,7 @@ pre .javascript .function {
   left: 30px;
   z-index: 1050;
   padding: 0 6px;
-  width: 24px;
+  width: initial;
   background: #222;
   font-size: 12px;
   opacity: 1;
@@ -1655,7 +1655,7 @@ pre .javascript .function {
   }
 }
 .back-to-top.back-to-top-on {
-  bottom: 19px;
+  bottom: 80px;
 }
 .header {
   background: transparent;
@@ -2282,7 +2282,7 @@ pre .javascript .function {
   position: fixed;
   left: 0;
   top: 0;
-  bottom: 0;
+  bottom: 1;
   width: 0;
   z-index: 1040;
   box-shadow: inset 0 2px 6px #000;
@@ -2322,7 +2322,7 @@ pre .javascript .function {
 .sidebar-toggle {
   position: fixed;
   left: 30px;
-  bottom: 45px;
+  bottom: 100px;
   width: 14px;
   height: 14px;
   padding: 5px;
@@ -2443,7 +2443,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ffd1bb;
+  background: #08ff1b;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3567,4 +3567,14 @@ body {
 #lv-container {
   border-radius: 10px;
   background: rgba(128,128,128,0.1) none repeat scroll !important;
+}
+.hider_title {
+  font-family: "Microsoft Yahei";
+  cursor: pointer;
+}
+.close:after {
+  content: "";
+}
+.open:after {
+  content: "";
 }
