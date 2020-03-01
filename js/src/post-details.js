@@ -97,3 +97,12 @@ $(document).ready(function () {
       }) : NexT.utils.displaySidebar();
   }
 });
+/*added by Paul, 2020-02-29 6:23*/
+$(document).ready(function(){
+    $(document).on('click', '.fold_hider', function(){
+        $('>.fold', this.parentNode).slideToggle();
+        $('>:first', this).toggleClass('open');
+    });
+    //默认情况下折叠
+    $("div.fold").css("display","none");
+});

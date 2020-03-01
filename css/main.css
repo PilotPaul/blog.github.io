@@ -1631,7 +1631,7 @@ pre .javascript .function {
   left: 30px;
   z-index: 1050;
   padding: 0 6px;
-  width: 24px;
+  width: initial;
   background: #222;
   font-size: 12px;
   opacity: 1;
@@ -1655,7 +1655,7 @@ pre .javascript .function {
   }
 }
 .back-to-top.back-to-top-on {
-  bottom: 19px;
+  bottom: 5px;
 }
 .header {
   background: transparent;
@@ -2322,7 +2322,7 @@ pre .javascript .function {
 .sidebar-toggle {
   position: fixed;
   left: 30px;
-  bottom: 45px;
+  bottom: 25px;
   width: 14px;
   height: 14px;
   padding: 5px;
@@ -2443,7 +2443,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #e0ff59;
+  background: #49ff60;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3567,4 +3567,44 @@ body {
 #lv-container {
   border-radius: 10px;
   background: rgba(128,128,128,0.1) none repeat scroll !important;
+}
+.hider_title {
+  font-family: "Microsoft Yahei";
+  cursor: pointer;
+}
+.close:after {
+  content: "";
+}
+.open:after {
+  content: "";
+}
+.aplayer-list-light {
+  background: #7fddd1 none repeat scroll !important;
+}
+#player1 {
+  border-radius: 6px;
+  background: rgba(0,0,0,0.1) none repeat !important;
+  width: 300px;
+  height: 250px;
+}
+#player1 div,
+#player1 ol {
+  border-radius: 6px;
+}
+.aplayer-list {
+  max-height: 250px;
+  height: 140px;
+}
+.aplayer-list ol {
+  width: 300px;
+  height: 140px;
+}
+.aplayer-list-index {
+  float: left;
+}
+.aplayer-list-title {
+  float: left;
+}
+.aplayer-list-author {
+  float: right;
 }
