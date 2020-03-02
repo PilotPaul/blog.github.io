@@ -123,7 +123,7 @@
 
 
 
-  <title>Linux - Personal Learning Journey. Markdown all pits in progress.</title>
+  <title>Linux - Personal Learning Journey. Markdown All Pits In Progress.</title>
   
 
 
@@ -159,7 +159,7 @@
       </a>
     </div>
       
-        <p class="site-subtitle">Personal Learning Journey. Markdown all pits in progress.</p>
+        <p class="site-subtitle">Personal Learning Journey. Markdown All Pits In Progress.</p>
       
   </div>
 
@@ -373,6 +373,16 @@
           
 
           
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/blog.github.io/blog/2020/02/24/Vim-Configuration/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/blog.github.io/blog/2020/02/24/Vim-Configuration/" itemprop="commentCount"></span>
+                </a>
+              </span>
             
           
 
@@ -596,8 +606,6 @@
 </div>
 
 
-  <div class="powered-by">Powered by <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a></div>
-
 
 
 
@@ -741,6 +749,28 @@
 
 
 
+
+  <script src="/js/av-min.js"></script>
+  <script src="/js/Valine.min.js"></script>
+  
+  <script type="text/javascript">
+    var GUEST = ['nick','mail','link'];
+    var guest = 'nick,mail,link';
+    guest = guest.split(',').filter(item=>{
+      return GUEST.indexOf(item)>-1;
+    });
+    new Valine({
+        el: '#comments' ,
+        verify: false,
+        notify: false,
+        appId: 'fpWxYXgCDuo7J33b86LNtMHF-gzGzoHsz',
+        appKey: '1os7t94ga9sAJwCzcpoeym7u',
+        placeholder: 'Just go go',
+        avatar:'mm',
+        guest_info:guest,
+        pageSize:'10' || 10,
+    });
+  </script>
 
 
 
