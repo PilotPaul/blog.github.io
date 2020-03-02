@@ -1,7 +1,16 @@
 const ap = new APlayer({
-    container: document.getElementById('aplayer'),
-    fixed: true,
-    autoplay: false,
+    container: document.getElementById('player1'),
+    autoplay: true,
+	loop: 'all',
+	order: 'random',
+	preload: 'metadata',
+	volume: 0.7,
+	mutex: true,
+	//lrcType: 3,
+	narrow: false,
+	listFolded: false,
+    //fixed: true,
+	theme: '#e6d0b2',
     audio: [
       {
         name: "恋爱循环",

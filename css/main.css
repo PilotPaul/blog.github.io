@@ -1655,7 +1655,7 @@ pre .javascript .function {
   }
 }
 .back-to-top.back-to-top-on {
-  bottom: 80px;
+  bottom: 5px;
 }
 .header {
   background: transparent;
@@ -2282,7 +2282,7 @@ pre .javascript .function {
   position: fixed;
   left: 0;
   top: 0;
-  bottom: 1;
+  bottom: 0;
   width: 0;
   z-index: 1040;
   box-shadow: inset 0 2px 6px #000;
@@ -2322,7 +2322,7 @@ pre .javascript .function {
 .sidebar-toggle {
   position: fixed;
   left: 30px;
-  bottom: 100px;
+  bottom: 25px;
   width: 14px;
   height: 14px;
   padding: 5px;
@@ -2443,7 +2443,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #08ff1b;
+  background: #17cdfb;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3577,4 +3577,34 @@ body {
 }
 .open:after {
   content: "";
+}
+.aplayer-list-light {
+  background: #7fddd1 none repeat scroll !important;
+}
+#player1 {
+  border-radius: 6px;
+  background: rgba(0,0,0,0.1) none repeat !important;
+  width: 300px;
+  height: 250px;
+}
+#player1 div,
+#player1 ol {
+  border-radius: 6px;
+}
+.aplayer-list {
+  max-height: 250px;
+  height: 140px;
+}
+.aplayer-list ol {
+  width: 300px;
+  height: 140px;
+}
+.aplayer-list-index {
+  float: left;
+}
+.aplayer-list-title {
+  float: left;
+}
+.aplayer-list-author {
+  float: right;
 }
